@@ -5,6 +5,6 @@ cache: node_modules
 script:
   - echo 'Build starts!!'
   - echo 'Installing Deps!'
-  - yarn
+  - npm
   - echo 'Testing!'
   - npm run test:prod

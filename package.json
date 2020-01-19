@@ -8,7 +8,8 @@
     "@vaga007/cli-app": "bin/create-project.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:prod": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "cli",
