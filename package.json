@@ -1,0 +1,27 @@
+{
+  "name": "@vaga007/cli-app",
+  "version": "1.0.0",
+  "description": "A quick node js CLI",
+  "main": "index.js",
+  "bin": {
+    "create-app": "bin/create-project.js",
+    "@vaga007/cli-app": "bin/create-project.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "cli-app"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "arg": "^4.1.2",
+    "chalk": "^3.0.0",
+    "esm": "^3.2.25",
+    "inquirer": "^7.0.3",
+    "ncp": "^2.0.0",
+    "promisify": "0.0.3"
+  }
+}
